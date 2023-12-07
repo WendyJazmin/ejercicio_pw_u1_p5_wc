@@ -1,0 +1,47 @@
+.container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(3, 75px);
+    grid-template-rows:  repeat(3, 75px);
+    background-color: #d8d8d8;
+    padding: 15px;
+   
+    box-shadow: 15px 10px 5px 5px #00000033;
+}
+
+button{
+   
+    margin: 5px;
+    padding: 0;
+    background-color: rgb(135, 201, 184);
+    border-radius: 10px;
+    size: 300px;
+}
+
+button:active{
+    background-color: #89dfeb;
+
+}
+
+button:hover{
+    background: #ffd2d2;
+   
+}
+
+#idresultado{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 90px;
+    text-align: center;
+    justify-content: center;
+    justify-content: center;
+}
+
+section{
+    text-align: center;
+}
